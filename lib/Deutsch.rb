@@ -1,3 +1,4 @@
+# coding: utf-8
 # https://github.com/ruby/ruby/blob/trunk/lib/English.rb
 module Deutsch end if false
 

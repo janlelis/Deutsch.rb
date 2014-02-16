@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |gem|
   gem.name          = "Deutsch"
-  gem.version       = "1.0.0"
+  gem.version       = "1.0.1"
   gem.summary       = "Deutsch.rb"
   gem.description   = "Include the Deutsch library file in a Ruby script, and you can reference the global variables such as $_ using less cryptic names."
   gem.license       = "MIT"
