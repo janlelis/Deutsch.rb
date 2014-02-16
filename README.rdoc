@@ -1,6 +1,9 @@
-Like https://github.com/ruby/ruby/blob/trunk/lib/English.rb but for German:
+Like English.rb, but for German: "Include the Deutsch library file in a Ruby script, and you can reference the global variables such as $_ using less cryptic names."
 
-Include the Deutsch library file in a Ruby script, and you can reference the global variables such as $_ using less cryptic names.
+Install it with:
+
+    $ gem install Deutsch
+
 
 Without 'Deutsch':
 
@@ -16,6 +19,8 @@ With Deutsch:
     "waterbuffalo" =~ /buff/
     print $GELADENE_FUNKTIONALITÄTEN, $NACHÜBEREINSTIMMUNG, $PID, "\n"
 
+
+See https://github.com/janlelis/Deutsch.rb/blob/master/lib/Deutsch.rb for all aliases.
 
 Copyright (c) 2014 Jan Lelis
 MIT LICENSE
