@@ -1,0 +1,21 @@
+Like https://github.com/ruby/ruby/blob/trunk/lib/English.rb but for German:
+
+Include the Deutsch library file in a Ruby script, and you can reference the global variables such as $_ using less cryptic names.
+
+Without 'Deutsch':
+
+    $\ = ' -- '
+    "waterbuffalo" =~ /buff/
+    print $", $', $$, "\n"
+
+With Deutsch:
+
+    require "Deutsch"
+
+    $AUSGABE_DATENSATZ_TRENNER = ' -- '
+    "waterbuffalo" =~ /buff/
+    print $GELADENE_FUNKTIONALITÄTEN, $NACHÜBEREINSTIMMUNG, $PID, "\n"
+
+
+Copyright (c) 2014 Jan Lelis
+MIT LICENSE
