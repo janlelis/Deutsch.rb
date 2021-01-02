@@ -20,7 +20,7 @@ With Deutsch:
     print $GELADENE_FUNKTIONALITÄTEN, $NACHÜBEREINSTIMMUNG, $PID, "\n"
 
 
-See https://github.com/janlelis/Deutsch.rb/blob/master/lib/Deutsch.rb for all aliases.
+See https://github.com/janlelis/Deutsch.rb/blob/main/lib/Deutsch.rb for all aliases.
 
 Copyright (c) 2014 Jan Lelis
 MIT LICENSE

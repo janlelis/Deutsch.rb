@@ -7,7 +7,7 @@ Gem::Specification.new do |gem|
   gem.description   = "Include the Deutsch library file in a Ruby script, and you can reference the global variables such as $_ using less cryptic names."
   gem.license       = "MIT"
   gem.authors       = ["Jan Lelis"]
-  gem.email         = "mail@janlelis.de"
+  gem.email         = ["hi@ruby.consulting"]
   gem.homepage      = "https://github.com/janlelis/Deutsch.rb"
   gem.files         = Dir['{**/}{.*,*}'].select { |path| File.file?(path) }
   gem.require_paths = ['lib']
